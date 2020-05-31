@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package assignement.assignments;
+package finalQUiz;
+
+import java.util.Scanner;
 
 /**
  *
  * @author shari
  */
-public class MainMethod {
+public class Problem_3 {
 
     public static void main(String[] args) {
-        ReadWriteFile readFile = new ReadWriteFile();
-        readFile.readWriteFile();
+       SubString s = new SubString();
+       s.subString();
     }
+
 }

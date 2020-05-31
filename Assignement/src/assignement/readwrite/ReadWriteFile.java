@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package assignement.assignments;
+package assignement.readwrite;
 
 import java.io.*;
 
@@ -14,8 +14,8 @@ import java.io.*;
 public class ReadWriteFile {
 
     public void readWriteFile() {
-        String fileName = "C:\\Users\\shari\\Desktop\\Everting-About-Java\\Assignement\\src\\assignement\\assignments\\input-output.txt";
-        String fileNameOfOuput = "C:\\Users\\shari\\Desktop\\Everting-About-Java\\Assignement\\src\\assignement\\assignments\\output.txt";
+        String fileName = "C:\\Users\\shari\\Desktop\\Everting-About-Java\\Assignement\\src\\assignement\\readwrite\\input-output.txt";
+        String fileNameOfOuput = "C:\\Users\\shari\\Desktop\\Everting-About-Java\\Assignement\\src\\assignement\\readwrite\\output.txt";
         int a = 0;
         int vowelCount = 0;
         FileInputStream fis;
